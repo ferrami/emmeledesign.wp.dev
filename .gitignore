@@ -4,6 +4,12 @@ wp-content/uploads/
 wp-content/upgrade/
 wp-content/backup-db/
 wp-content/advanced-cache.php
+# Ignorar archivos y directorios generados por WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
 wp-content/cache/
 wp-content/backup-db/
 wp-content/backupbuddy_temp/
