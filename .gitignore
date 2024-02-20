@@ -1,0 +1,32 @@
+# Ignorar archivos y directorios generados por WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/cache/
+wp-content/backup-db/
+wp-content/backupbuddy_temp/
+wp-content/cache/
+wp-content/flagallery/
+wp-content/languages/
+wp-content/upgrade/
+wp-content/plugins/hello.php
+
+# Ignorar archivos y directorios de dependencias del administrador de paquetes de composer (si se usa)
+vendor/
+
+# Ignorar archivos de configuración locales (por ejemplo, para configuraciones de desarrollo)
+wp-config-local.php
+
+# Ignorar archivos de registro y copias de seguridad
+error_log
+debug.log
+*.log
+*.sql
+*.sql.gz
+
+# Ignorar archivos de caché generados por sistemas de caché adicionales
+.w3tc-config
+.htaccess
+nginx.conf
