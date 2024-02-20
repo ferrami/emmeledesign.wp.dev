@@ -30,3 +30,4 @@ debug.log
 .w3tc-config
 .htaccess
 nginx.conf
+.DS_Store
